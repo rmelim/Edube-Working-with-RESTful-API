@@ -1,0 +1,22 @@
+Los ejercicios presentes en esta carpeta requieren de la instalación de un servidor
+local de Node.js, del paquete de Node.js llamado json-server y del paquete de Python 
+conocido como requests.
+
+Para el servidor Node.js, debe descargarse el instalador (Versión LTS), correspondiente 
+al S.O. con el que se va a ejecutar, desde: https://nodejs.org/en/download
+
+Luego de instalado el Node.js, instalar el paquete json-server con la herramienta npm
+desde el terminal de comandos. La sintaxis es: npm install -g json-server
+
+El paquete requests se descarga a través de la herramienta pip en el termninal de
+comandos: pip install requests
+
+Con todo ya instalado, para poder probar cualquiera de los códigos en Python de esta 
+carpeta, con el archivo cars.json, se debe iniciar el Servidor JSON de Node.js. Para 
+realizar esto, ejecutar desde el terminal de comandos, dentro de esta misma carpeta, 
+la siguiente instrucción: json-server --watch cars.json
+
+Probar la conexión con cualquier navegaador (Chrome, por ejemplo) a la siguiente URL:
+http://localhost:3000
+
+
